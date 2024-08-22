@@ -25,5 +25,15 @@
 			</plugin>
 		</plugins>
 	</build>
-
+<properties>
+        <!-- versions -->
+        <sonar.host.url>http://54.145.46.138:9000/</sonar.host.url>
+        <sonar.login>5bb2c7f565aad1bf5312daa6dcb961b70b05114a</sonar.login>
+        <!--
+        <sonar.login>admin</sonar.login>
+        <sonar.password>admin</sonar.password>
+        -->
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
 </project>
